@@ -14,6 +14,8 @@
 		C28538AD223027E7007F6223 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C28538AB223027E7007F6223 /* LaunchScreen.storyboard */; };
 		C28538B8223027E7007F6223 /* PruebaSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28538B7223027E7007F6223 /* PruebaSwiftTests.swift */; };
 		C28538C3223027E7007F6223 /* PruebaSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28538C2223027E7007F6223 /* PruebaSwiftUITests.swift */; };
+		C28538D2223150F6007F6223 /* InicioSesionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28538D1223150F6007F6223 /* InicioSesionViewController.swift */; };
+		C28538D42231A1C6007F6223 /* ListarProspectos.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28538D32231A1C6007F6223 /* ListarProspectos.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		C28538BE223027E7007F6223 /* PruebaSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PruebaSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C28538C2223027E7007F6223 /* PruebaSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PruebaSwiftUITests.swift; sourceTree = "<group>"; };
 		C28538C4223027E7007F6223 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C28538D1223150F6007F6223 /* InicioSesionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = InicioSesionViewController.swift; path = "Supporting Files/InicioSesionViewController.swift"; sourceTree = "<group>"; };
+		C28538D32231A1C6007F6223 /* ListarProspectos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListarProspectos.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				C28538A9223027E7007F6223 /* Assets.xcassets */,
 				C28538AB223027E7007F6223 /* LaunchScreen.storyboard */,
 				C28538AE223027E7007F6223 /* Info.plist */,
+				C28538D0223150AD007F6223 /* Supporting Files */,
+				C28538D1223150F6007F6223 /* InicioSesionViewController.swift */,
 			);
 			path = PruebaSwift;
 			sourceTree = "<group>";
@@ -123,6 +129,14 @@
 				C28538C4223027E7007F6223 /* Info.plist */,
 			);
 			path = PruebaSwiftUITests;
+			sourceTree = "<group>";
+		};
+		C28538D0223150AD007F6223 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C28538D32231A1C6007F6223 /* ListarProspectos.swift */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +271,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C28538A5223027DC007F6223 /* ViewController.swift in Sources */,
+				C28538D2223150F6007F6223 /* InicioSesionViewController.swift in Sources */,
+				C28538D42231A1C6007F6223 /* ListarProspectos.swift in Sources */,
 				C28538A3223027DC007F6223 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -434,6 +450,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PruebaSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -451,6 +468,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PruebaSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
