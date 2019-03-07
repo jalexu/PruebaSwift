@@ -93,13 +93,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="acD-mm-qp5">
-                                <rect key="frame" x="16" y="514" width="343" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="vad-cQ-C7I"/>
@@ -107,7 +100,6 @@
                     <connections>
                         <outlet property="contrasenaTextField" destination="adV-Q6-5oq" id="xRX-QZ-Jpe"/>
                         <outlet property="emailTextField" destination="UvM-By-Cp4" id="FV4-UG-Ld1"/>
-                        <outlet property="listaProspectos" destination="acD-mm-qp5" id="acz-JI-yQL"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ciM-vR-ccq" userLabel="First Responder" sceneMemberID="firstResponder"/>

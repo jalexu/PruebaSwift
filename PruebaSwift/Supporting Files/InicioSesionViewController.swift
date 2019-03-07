@@ -48,6 +48,9 @@ class InicioSesionViewController: UIViewController {
             
             
             let ini = iniciarSesion(usuario: email, contrasenaUsuario: contrasena)
+            let ttt = ini.index(after: 0).hashValue
+            
+            print(ttt.hashValue)
             
             }
             
