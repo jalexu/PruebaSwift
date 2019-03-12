@@ -48,9 +48,6 @@ class InicioSesionViewController: UIViewController {
             
             
             let ini = iniciarSesion(usuario: email, contrasenaUsuario: contrasena)
-            let ttt = ini.index(after: 0).hashValue
-            
-            print(ttt.hashValue)
             
             }
             
@@ -95,23 +92,23 @@ class InicioSesionViewController: UIViewController {
             // Check for error
             if error != nil
             {
-                print("error=\(error)")
+                print("error=\(error!)")
                 return
             }
             
             // Print out response string
             let responseString = NSString(data: data!, encoding: String.Encoding.utf8.rawValue)
-            print("responseString = \(responseString)")
+            print("responseString = \(responseString!)")
             
             
             // Convert server json response to NSDictionary
             do {
-                if let convertedJsonIntoDict = try JSONSerialization.jsonObject(with: data!, options: []) as? NSDictionary {
+                if let convirtiendoJson = try JSONSerialization.jsonObject(with: data!, options: []) as? [String: Any] {
                     
                     // Print out dictionary
-                    tokens = [convertedJsonIntoDict]
-                    print(convertedJsonIntoDict)
-                    
+                    let obteniendoToken = convirtiendoJson["authToken"] as? String
+                   
+                    print(obteniendoToken!)
                     
                 }
             } catch let error as NSError {

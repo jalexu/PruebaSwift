@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C26E9CC52236CABC00C9FF2B /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26E9CC42236CABC00C9FF2B /* Token.swift */; };
 		C28538A3223027DC007F6223 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28538A2223027DC007F6223 /* AppDelegate.swift */; };
 		C28538A5223027DC007F6223 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28538A4223027DC007F6223 /* ViewController.swift */; };
 		C28538A8223027DC007F6223 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C28538A6223027DC007F6223 /* Main.storyboard */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C26E9CC42236CABC00C9FF2B /* Token.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
 		C285389F223027DC007F6223 /* PruebaSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PruebaSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C28538A2223027DC007F6223 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C28538A4223027DC007F6223 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -135,6 +137,7 @@
 			isa = PBXGroup;
 			children = (
 				C28538D32231A1C6007F6223 /* ListarProspectos.swift */,
+				C26E9CC42236CABC00C9FF2B /* Token.swift */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C28538A5223027DC007F6223 /* ViewController.swift in Sources */,
+				C26E9CC52236CABC00C9FF2B /* Token.swift in Sources */,
 				C28538D2223150F6007F6223 /* InicioSesionViewController.swift in Sources */,
 				C28538D42231A1C6007F6223 /* ListarProspectos.swift in Sources */,
 				C28538A3223027DC007F6223 /* AppDelegate.swift in Sources */,
@@ -449,8 +453,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2BFYDDH2HY;
 				INFOPLIST_FILE = PruebaSwift/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -467,8 +472,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2BFYDDH2HY;
 				INFOPLIST_FILE = PruebaSwift/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
